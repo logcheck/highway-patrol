@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version='1.0'>
+	<dict>
+		<key>Label</key>
+		<string>com.logcheck.highway-patrol</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/usr/local/bin/highway-patrol.sh</string>
+			<string>/usr/local/etc/highway-patrol.conf</string>
+		</array>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Minute</key>
+			<integer>53</integer>
+		</dict>
+		<key>StandardOutPath</key>
+		<string>/var/log/highway-patrol.log</string>
+		<key>StandardErrorPath</key>
+		<string>/var/log/highway-patrol.log</string>
+	</dict>
+</plist>
